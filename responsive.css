@@ -1,15 +1,21 @@
 @media only screen and (min-width: 360px) {
-body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-  .certification-wrapper {
-    gap: 40px;
-    padding-top: 40px;
-    width: 100%;
-    flex-wrap: wrap;
+  .nav-links {
+    display: none;
   }
+  .nav-active {
+    transform: translateX(0%);
+    display: flex;
+  }
+  
+}
 @media only screen and (min-width: 480px) {
+    .nav-links {
+    display: none;
+  }
+  .nav-active {
+    transform: translateX(0%);
+    display: flex;
+  }
   body {
   overflow-x: hidden;
   max-width: 100%;
