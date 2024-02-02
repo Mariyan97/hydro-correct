@@ -1,4 +1,19 @@
+@media only screen and (min-width: 360px) {
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+  .certification-wrapper {
+    gap: 40px;
+    padding-top: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
 @media only screen and (min-width: 480px) {
+  body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
   .certification-wrapper {
     gap: 40px;
     padding-top: 40px;
@@ -125,6 +140,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
   h4 {
     font-size: 1.2rem;
   }
